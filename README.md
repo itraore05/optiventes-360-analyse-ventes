@@ -54,29 +54,40 @@ Ce projet transforme les données de ventes brutes en un outil d'aide à la déc
 
 ## 🖼️ Aperçu du tableau de bord
 
-![Aperçu du dashboard](images/dashboard.png)
+![Accueil du dashboard](images/1Cover%20home%20dashboad%201.jpg)
 
-📄 Version PDF complète : [`dashboard/dashboard.pdf`](dashboard/dashboard.pdf)
+| Ventes & performances | Clients & géographie |
+|---|---|
+| ![](images/2dasboard-1.jpg) | ![](images/3dashboard-2.jpg) |
+| **Rentabilité & marges** | **Synthèse** |
+| ![](images/4dashboard-3.jpg) | ![](images/5dsynthese.jpg) |
+
+## 📄 Livrables
+
+| Livrable | Fichier |
+|---|---|
+| Dashboard Power BI | [`dashboard_optiventes-360.pbix`](dashboard/dashboard_optiventes-360.pbix) |
+| Dashboard (PDF) | [`dashboard_dashboard.pdf`](rapport/dashboard_dashboard.pdf) |
+| Rapport d'analyse | [Rapport d'analyse des ventes et performances commerciales](rapport/RAPPORT%20D_ANALYSE%20DES%20VENTES%20ET%20PERFORMANCES%20COMMERCIALES.pdf) |
+| Présentation | [PDF](rapport/rapport_presentation.pdf) · [PowerPoint](rapport/PRESENTATION%20POWER%20POINT%20DU%20PROJET%20OPTIVENTES%20360.pptx) |
+| Cadrage du projet | [Planification](rapport/Planification%20du%20projet%20-%20id%C3%A9e%2C%20objectifs%20et%20port%C3%A9e.pdf) · [Objectifs commerciaux](rapport/Objectifs%20Commerciaux%20du%20Projet%20OPTIVENTES%20360.pdf) |
+| Dataset | [`Dataset (Excel)`](data/Dataset%20Analyse%20des%20ventes%20%26%20perfomance%20commerc.xlsx) |
 
 ## 📁 Structure du dépôt
 
 ```
 optiventes-360-analyse-ventes/
-├── dashboard/
-│   ├── optiventes-360.pbix      # Fichier Power BI
-│   └── dashboard.pdf            # Export PDF du tableau de bord
-├── data/                        # Dataset utilisé
-├── images/
-│   └── dashboard.png            # Capture du tableau de bord
-├── rapport/
-│   └── presentation.pdf         # Présentation du projet
+├── dashboard/   # Fichier Power BI (.pbix)
+├── data/        # Dataset Excel
+├── images/      # Captures du tableau de bord
+├── rapport/     # Rapport d'analyse, présentation, cadrage, dashboard PDF
 └── README.md
 ```
 
 ## ▶️ Utilisation
 
 1. Cloner ou télécharger le dépôt.
-2. Ouvrir `dashboard/optiventes-360.pbix` avec **Power BI Desktop**.
+2. Ouvrir `dashboard/dashboard_optiventes-360.pbix` avec **Power BI Desktop**.
 3. Si besoin, mettre à jour le chemin de la source de données vers le dossier `data/`.
 
 ## 👤 Auteur
